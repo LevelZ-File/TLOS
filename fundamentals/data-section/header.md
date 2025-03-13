@@ -20,6 +20,12 @@ A "standardized" header is a header name and value that are **officially** recog
 
 Standardized headers are located in the [headers](/fundamentals/data-section/headers/) folder.
 
+### Non-Standardized Headers
+
+A "non-standardized" header is a header name and value that are not officially recognized as a core part of the file format language. This includes custom headers with custom values.
+
+Non-Standardized headers include any headers not included apart of the official LevelZ Standard.
+
 ## Correct Usage
 
 ```lvlz
@@ -28,6 +34,8 @@ Standardized headers are located in the [headers](/fundamentals/data-section/hea
 @+_plus 23
 @20 three
 ```
+
+Headers are allowed to have any charater name and value, so long as they **exist on the same line**.
 
 ## Incorrect Usage
 
